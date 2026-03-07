@@ -1,0 +1,9 @@
+# ⭐⭐ Print the first 10 Fibonacci numbers in coding
+
+def f.s.(x):
+    a, b = 0, 1
+    for _ in range(x):
+        print(a, b" ")
+        a, b = b, a + b
+
+f.s.(10)
