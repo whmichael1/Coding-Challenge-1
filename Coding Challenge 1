@@ -1,9 +1,10 @@
-# ⭐⭐ Print the first 10 Fibonacci numbers in coding
+word = input("word: ")
 
-def f.s.(x):
-    a, b = 0, 1
-    for _ in range(x):
-        print(a, b" ")
-        a, b = b, a + b
+vowels = "aeiouAEIOU"
+count = 0
 
-f.s.(10)
+for char in word:
+    if char in vowels:
+        count += 1
+
+print(f"The number of vowels in '{word}' is: {count}")
